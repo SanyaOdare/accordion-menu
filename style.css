@@ -1,1 +1,22 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
 
+body {
+  background-color: #e0e0e0;
+}
+
+h1 {
+  text-align: center;
+}
+
+.accordion {
+  width: 800px;
+  margin: auto 90px;
+  color: #000000;
+  background-color: #fff;
+  padding: 45px 45px;
+}
+
+.accordion .container {
+  position: relative;
+  margin: 10px 10px;
+}
