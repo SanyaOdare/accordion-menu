@@ -90,57 +90,36 @@ h1 {
   body {    
     height: 100vh;
     width: 100%;
-    line-height: 1.4;
     text-align: left;
   }  
 
   .accordion-body {
     margin: 70px 5px;
-    max-width: 550px;
-    width: 50%;
+    /* max-width: 550px; */
+    /* width: 50%; */
   }
 
   .accordion {
     width: 420px;
-    padding: 30px 30px;
+    padding: 30px 10px;
     border-radius: 8px;
   }
-
-  /* .accordion {
-    width: 800px;
-    margin: auto 90px;
-    color: #000000;
-    background-color: #fff;
-    padding: 45px 45px;
-    border-radius: 10px;
-  } */
   
   h1 {    
     font-weight: 500;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     text-align: left;
+    margin-bottom: 20px;
   }
 
   .accordion .label {    
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
 
   .accordion .content {    
     width: 500px;    
-    font-size: .9rem;
+    font-size: 1rem;
     width: 300px;
     overflow: hidden;
   }
-
-  /* .accordion .content {
-    position: relative;
-    background: #fff;
-    /* /* height: 0; */
-    /* font-size: 2rem; */
-    /* text-align: justify;
-    width: 700px;
-    overflow: hidden;
-    transition: 0.5s;
-    font-size: 1rem;
-  } */
 }
