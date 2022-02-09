@@ -1,11 +1,32 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
 
 body {
-  background-color: #e0e0e0;
+  height: 100vh;
+  width: 100%;
+  background: #ccc;
+  /* margin: 30px 50px; */
+  line-height: 1.4;  
+  
+}
+
+.accordion-body {
+  margin: 200px auto;
+  max-width: 900px;
+  width: 100%;
+  background: blue;
 }
 
 h1 {
   text-align: center;
+  font-weight: 500;
+  font-size: 2.2rem;
 }
 
 .accordion {
@@ -27,6 +48,7 @@ h1 {
   font-size: 30px;
   color: #000000;
   cursor: pointer;
+  font-size: 1.5rem;
 }
 
 .accordion .label::before {
@@ -48,6 +70,7 @@ h1 {
   width: 780px;
   overflow: hidden;
   transition: 0.5s;
+  font-size: 1rem;
 }
 
 .accordion hr {
