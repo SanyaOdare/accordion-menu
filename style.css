@@ -87,23 +87,22 @@ h1 {
 }
 
 @media (max-width: 600px) {
-  body {
+  body {    
     height: 100vh;
-    width: 40%;
-    background: #ccc;
+    width: 100%;
     line-height: 1.4;
     text-align: left;
-  }
+  }  
 
   .accordion-body {
-    margin: 150px 10px;
-    max-width: 450px;
-    width: 50%;  
+    margin: 70px 5px;
+    max-width: 550px;
+    width: 50%;
   }
 
   .accordion {
-    width: 400px;
-    padding: 35px 35px;
+    width: 420px;
+    padding: 30px 30px;
     border-radius: 8px;
   }
 
