@@ -86,10 +86,10 @@ h1 {
   font-size: 30px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
   body {
     height: 100vh;
-    width: 50%;
+    width: 40%;
     background: #ccc;
     line-height: 1.4;
     text-align: left;
@@ -102,7 +102,7 @@ h1 {
   }
 
   .accordion {
-    width: 480px;
+    width: 400px;
     padding: 35px 35px;
     border-radius: 8px;
   }
@@ -118,7 +118,7 @@ h1 {
   
   h1 {    
     font-weight: 500;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     text-align: left;
   }
 
@@ -129,7 +129,7 @@ h1 {
   .accordion .content {    
     width: 500px;    
     font-size: .9rem;
-    width: 400px;
+    width: 300px;
     overflow: hidden;
   }
 
