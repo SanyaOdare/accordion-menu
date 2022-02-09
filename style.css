@@ -11,16 +11,13 @@ body {
   height: 100vh;
   width: 100%;
   background: #ccc;
-  /* margin: 30px 50px; */
-  line-height: 1.4;  
-  
+  line-height: 1.4;
 }
 
 .accordion-body {
   margin: 200px auto;
   max-width: 900px;
-  width: 100%;
-  background: blue;
+  width: 100%;  
 }
 
 h1 {
@@ -35,6 +32,7 @@ h1 {
   color: #000000;
   background-color: #fff;
   padding: 45px 45px;
+  border-radius: 10px;
 }
 
 .accordion .container {
@@ -45,7 +43,7 @@ h1 {
 .accordion .label {
   position: relative;
   padding: 10px 0;
-  font-size: 30px;
+  /* font-size: 30px; */
   color: #000000;
   cursor: pointer;
   font-size: 1.5rem;
@@ -65,9 +63,9 @@ h1 {
   position: relative;
   background: #fff;
   height: 0;
-  font-size: 20px;
+  /* font-size: 2rem; */
   text-align: justify;
-  width: 780px;
+  width: 700px;
   overflow: hidden;
   transition: 0.5s;
   font-size: 1rem;
@@ -86,4 +84,64 @@ h1 {
 .accordion .container.active .label::before {
   content: '-';
   font-size: 30px;
+}
+
+@media (max-width: 700px) {
+  body {
+    height: 100vh;
+    width: 50%;
+    background: #ccc;
+    line-height: 1.4;
+    text-align: left;
+  }
+
+  .accordion-body {
+    margin: 150px 10px;
+    max-width: 450px;
+    width: 50%;  
+  }
+
+  .accordion {
+    width: 480px;
+    padding: 35px 35px;
+    border-radius: 8px;
+  }
+
+  /* .accordion {
+    width: 800px;
+    margin: auto 90px;
+    color: #000000;
+    background-color: #fff;
+    padding: 45px 45px;
+    border-radius: 10px;
+  } */
+  
+  h1 {    
+    font-weight: 500;
+    font-size: 1.4rem;
+    text-align: left;
+  }
+
+  .accordion .label {    
+    font-size: 1.1rem;
+  }
+
+  .accordion .content {    
+    width: 500px;    
+    font-size: .9rem;
+    width: 400px;
+    overflow: hidden;
+  }
+
+  /* .accordion .content {
+    position: relative;
+    background: #fff;
+    /* /* height: 0; */
+    /* font-size: 2rem; */
+    /* text-align: justify;
+    width: 700px;
+    overflow: hidden;
+    transition: 0.5s;
+    font-size: 1rem;
+  } */
 }
