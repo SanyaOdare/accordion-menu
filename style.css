@@ -33,10 +33,10 @@ h1 {
   background-color: #fff;
   padding: 45px 45px;
   border-radius: 10px;
-  display: flex;
+  /* display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-direction: column; */
 }
 
 .accordion .container {
@@ -96,16 +96,22 @@ h1 {
   }
 
   .accordion {
-    width: 420px;
+    width: 400px;
     padding: 30px 30px;
     border-radius: 8px;
   }
 
   .accordion-body {
-    margin: 70px 5px;
-    max-width: 550px;
-    width: 50%;
+    margin: 65px 5px;
+    /* max-width: 500px; */
+    width: 100%;
   }
+
+  /* .accordion-body {
+    margin: 200px auto;
+    max-width: 900px;
+    width: 100%;  
+  } */
 
   h1 {    
     font-weight: 500;
