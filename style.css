@@ -91,9 +91,18 @@ h1 {
 }
 
 @media (max-width: 600px) {
-  body {    
+  body {
+    height: 100vh;
+    width: 100%;
     text-align: left;
   }
+
+  /* body {
+    height: 100vh;
+    width: 100%;
+    background: #ccc;
+    line-height: 1.4;
+  } */
 
   .accordion {
     width: 400px;
